@@ -19,6 +19,7 @@ public class Reporter extends BrowserLaunch {
 		File file = new File("Result/"+Timestamp); //This will be folder path
 		file.mkdir(); //It will create new folder
 		filepath=file.getPath();
+		System.setProperty("ResultTime", file.getPath());
 		 report = new ExtentReports(file.getPath()+"/Result.html", true);
 	
 	}
