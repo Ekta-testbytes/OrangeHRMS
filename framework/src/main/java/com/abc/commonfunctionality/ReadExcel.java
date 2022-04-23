@@ -48,6 +48,7 @@ public class ReadExcel extends Reporter {
 	
 	public void getCellData(String TestCaseName,String ColumnName) {
 		Iterator<Row> rowiterator=sheet.rowIterator();
+		
 		while(rowiterator.hasNext()){
 			Row row=rowiterator.next();
 			int column=getColumnNumber(ColumnName);
