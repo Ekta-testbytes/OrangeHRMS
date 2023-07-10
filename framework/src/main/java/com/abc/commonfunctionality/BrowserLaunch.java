@@ -21,14 +21,14 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 //We are developing framework ---Skeleton --Chrome
 public class BrowserLaunch {
-	
-	public static WebDriver driver;
+		public static WebDriver driver;
 	public static Properties property;
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String filepath;
 	public static XSSFWorkbook workbook;
 	public static XSSFSheet sheet;
+	
 
 	@BeforeSuite
 	public void Browser_Initilisation() {
